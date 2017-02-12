@@ -13,7 +13,6 @@ exports.default = function (_ref) {
 				if (path.node.operator !== "===") {
 					return;
 				}
-				console.log("FuckFuckFUck");
 				path.node.left = t.identifier("sembva");
 			}
 		}
